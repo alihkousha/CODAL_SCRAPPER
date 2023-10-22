@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env" : {
+                "MAX_RETRIES" : "5",
+                "BACKOFF_FACTOR" : "0.3",
+                "MAX_WORKERS" : "2",
+                "DESIRED_CHUCKS" : "10",
+                "PATH" : "/home/ali/Files/Projects/CODAL_V2/Data",
+                "DB_PATH" : "/home/ali/Files/Projects/CODAL_V2/db/CODAL_DB.db",
+            }
+        },
+    ]
+}
